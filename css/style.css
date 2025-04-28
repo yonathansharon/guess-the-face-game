@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #puzzle-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+  
+  .puzzle-piece {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .puzzle-piece.visible {
+    opacity: 1;
+  }
+  
+  #name-display {
+    margin: 20px;
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+  
+  #guess-input {
+    width: 200px;
+    padding: 8px;
+  }
+  
+  #submit-guess {
+    padding: 8px 12px;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
