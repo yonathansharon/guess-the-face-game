@@ -1,5 +1,5 @@
-const fullName = "יוסי כהן"; // כאן שם הדמות בעברית
-const imgSrc = "images/person.jpg"; 
+const fullName = "אסף בהט"; // כאן שם הדמות בעברית
+const imgSrc = "images/person.jpeg"; 
 const maxAttempts = 10; // עכשיו יש 10 ניסיונות
 
 let guessedLetters = new Set();
